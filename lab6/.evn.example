@@ -1,0 +1,1 @@
+DB_CONNECTION_STRING=[db_client]://[db_username]:[db_user_password]@localhost:[db_port]/[db_name]
