@@ -23,9 +23,9 @@ console.log(add(2)(5)(7)(1)(6)(5)(11)(12)());
 
 // Перевірка на анаграму
 const areAnagrams = (str1: string, str2: string): boolean =>
-    str1.split(``).every(letter => str2.includes(letter))
-    &&
-    str2.split(``).every(letter => str1.includes(letter));
+    str1.split(``).sort().join(``)
+    ===
+    str2.split(``).sort().join(``)
 
 // Глибоке копіювання
 
