@@ -1,0 +1,7 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "KPI lab2 node.js-course",
+  "main": "index.js",
+  "license": "MIT"
+}
